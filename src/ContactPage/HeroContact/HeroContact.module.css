@@ -1,0 +1,19 @@
+.HeroContact {
+    background-image: url('https://cdn.pixabay.com/photo/2019/05/01/09/50/swan-4170400_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100vh;
+    padding-top: 160px;
+    
+  
+  
+
+}
+
+
+@media(max-width:600px){
+    .HeroContact{
+       background-size: 100% 100%;
+    }
+}

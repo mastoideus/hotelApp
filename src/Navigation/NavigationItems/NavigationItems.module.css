@@ -1,0 +1,29 @@
+.NavigationItems {
+    display: flex;
+    height: 80%;
+    list-style: none;
+    align-items: center
+}
+
+.NavigationItems li {
+   margin-right: 20px;
+}
+
+.NavigationItems li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cinzel', serif;
+
+}
+
+.NavigationItems li a:hover {
+    color: wheat;
+}
+
+
+@media(max-width:605px){
+    .NavigationItems {
+        display: none;
+    }
+}
+

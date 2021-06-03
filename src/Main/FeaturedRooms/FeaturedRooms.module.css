@@ -1,0 +1,46 @@
+.FeaturedRooms {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 15px;
+    font-family: 'Playfair Display SC', serif;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.FeaturedRooms h2 {
+    font-family: inherit;
+     letter-spacing: 2.5px;
+    font-size: 35px;
+    margin: 30px auto;
+    
+}
+
+.Underline {
+    width: 150px;
+    height: 3.5px;
+    margin: auto;
+    margin-top: -20px;
+    border-radius: 5px;
+    background-color: rgb(198, 170, 15);
+    padding-bottom: 3.5px;
+}
+
+.RoomsList {
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+    font-family: inherit;
+}
+
+@media (max-width:600px){
+    .RoomsList {
+        flex-direction: column;
+        width: 75%;
+        margin-top: 20px;
+      
+    }
+}

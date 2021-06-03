@@ -1,0 +1,49 @@
+.SideDrawer {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    height: 60px;
+    color: white;
+    transition: transform 0.3s ease-in;
+    z-index: -1;
+   
+}
+
+.SideDrawer ul {
+   width: 20%;
+   margin: auto;
+   text-align: center;
+   list-style: none;
+   
+ 
+}
+
+.SideDrawer ul li a {
+  color: white;
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+
+  
+}
+
+.SideDrawer ul li a:hover {
+    color: wheat;
+}
+
+.SideDrawer ul li {
+    z-index: -1;
+}
+
+.SideDrawer h3 {
+    width: 35%;
+    margin: auto;
+    margin-top: -50px;
+    padding-right: 150px;
+    margin-bottom: 15px;
+    font-family: 'Cinzel', serif;
+    font-size: 11px
+    ;
+}
+

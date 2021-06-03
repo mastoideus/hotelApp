@@ -1,0 +1,51 @@
+.Servis {
+    width:100%;
+    padding-bottom: 60px;
+    background-color: black;
+    color: whitesmoke;
+     box-sizing: border-box;
+     text-align: center;
+     font-family: 'Playfair Display SC', serif;
+     padding-top: 55px;
+     
+}
+
+.Servis h2 {
+    margin-top: 0;
+    font-family: inherit;
+    letter-spacing: 2.5px;
+    font-size: 35px;
+    width: 40%;
+    margin:auto;
+    
+}
+
+.Underline {
+   width: 60px;
+    height: 3.5px;
+    margin: auto;
+    margin-top: 6px;
+    border-radius: 5px;
+    background-color: white;
+    
+
+}
+
+.List {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+    
+}
+
+
+@media (max-width:600px){
+    .List {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}

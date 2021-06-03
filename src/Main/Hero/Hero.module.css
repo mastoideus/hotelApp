@@ -1,0 +1,8 @@
+.Hero {
+    width: 100%;
+    background-image: url('https://media.architecturaldigest.com/photos/5dea7097649df00009cd1b29/16:9/w_2560%2Cc_limit/Eiffel%252520Tower%252520Suite%252520%40Ambroise%252520Tezenas%252520(1).jpg');
+   background-size: cover;
+    height: 450px;
+    padding-top: 200px;
+    left: 0;
+}

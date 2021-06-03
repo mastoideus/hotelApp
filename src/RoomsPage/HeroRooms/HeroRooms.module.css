@@ -1,0 +1,10 @@
+.HeroRooms {
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2019/09/10/08/21/hotel-4465565_960_720.jpg');
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    padding-top: 150px;
+    box-sizing: border-box;
+}

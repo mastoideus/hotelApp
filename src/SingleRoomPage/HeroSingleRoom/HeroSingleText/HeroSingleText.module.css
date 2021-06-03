@@ -1,0 +1,33 @@
+.HeroText {
+    min-width: 35%;
+    background-color: rgba(0,0,0,0.8);
+    margin: auto;
+    height: 270px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.HeroText h1 {
+   
+  color: white;
+  font-size: 45px;
+  letter-spacing: 3px;
+  
+}
+
+.Underline {
+     width: 22%;
+    height: 3.5px;
+    background-color: teal;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.HeroText img {
+    width: 80px;
+    margin-top: 30px;
+}
+
+

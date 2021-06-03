@@ -1,0 +1,89 @@
+.ContactModal {
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    z-index: 300;
+    height: 420px;
+    background-color: white;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: opacity 0.4s linear, visibility 0.4s linear;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    top: 140px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.Head {
+    width: 100%;
+    background-color: black;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid rgb(167, 126, 21);
+    box-sizing: border-box;
+ 
+}
+
+.Title {
+    font-family: inherit;
+    color: goldenrod;
+    letter-spacing: 1.5px;
+}
+
+.Form {
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Form input {
+    margin-bottom: 10px;
+    outline-color: rgb(234, 198, 107);
+    border:1px solid goldenrod;
+    padding: 10px;
+}
+
+.Form textarea {
+    height: 70px;
+     outline-color: rgb(234, 198, 107);
+    border:1px solid goldenrod;
+    margin-bottom: 27px;
+
+}
+
+.Form button {
+     padding: 8px 12px;
+       background-color: rgb(255, 184, 3);
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: bold;
+    width: 90px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-right: 10px ;
+    margin-left: 10px;
+}
+
+.Form button:hover {
+    color: rgb(255, 184, 3);
+    background-color:black;
+}
+
+@media(max-width:600px){
+    .ContactModal{
+        width: 80%;
+        margin-left: -15%;
+    }
+}

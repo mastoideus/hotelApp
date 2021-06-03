@@ -1,0 +1,21 @@
+.SearchBar {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+  
+   
+
+}
+
+.AllRooms {
+    margin: 0;
+    margin-left: 20px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.AllRooms:hover {
+    color: goldenrod;
+}

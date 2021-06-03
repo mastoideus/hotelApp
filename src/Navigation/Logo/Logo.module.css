@@ -1,0 +1,23 @@
+.Logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.Logo img {
+    height: 80%;
+}
+
+.Logo h3 {
+    height: 40%;
+    margin-left: 25px;
+    font-family: 'Cinzel', serif;
+}
+
+@media(max-width:599px){
+    .Logo h3 {
+        display: none;
+    }
+}

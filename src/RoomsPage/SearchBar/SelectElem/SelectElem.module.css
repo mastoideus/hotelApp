@@ -1,0 +1,50 @@
+.SelectElem {
+    width: 220px;
+    position: relative;
+}
+
+.Select {
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-right: 10px;
+    
+}
+
+.SelectList {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    background-color: wheat;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+.SelectElem:hover .SelectList {
+   visibility: visible;
+    opacity: 1;
+    z-index: 100;
+
+}
+
+.SelectItem {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.SelectItem:hover {
+    color:goldenrod
+}
+
+.SelectElem {
+    margin-left: 15px;
+    margin-right: 15px;
+}

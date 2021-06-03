@@ -1,0 +1,54 @@
+.HeroText {
+     width: 40%;
+    background-color: rgba(0,0,0,0.7);
+    margin: auto;
+    height: 270px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    
+}
+
+.HeroText h1 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+
+.Underline {
+     width: 22%;
+    height: 3.5px;
+    background-color: teal;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.HeroText button {
+     padding: 10px 15px;
+    background-color: rgb(120, 1, 120);
+    outline: none;
+    border: none;
+    color: teal;
+    margin-top: 70px;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-right: 10px ;
+    margin-left: 10px;
+}
+
+.HeroText button:hover {
+     background-color: rgb(92, 2, 92) ;
+    color: thistle;
+}
+
+
+@media(max-width:900px){
+    .HeroText {
+        width: 70%;
+    }
+}

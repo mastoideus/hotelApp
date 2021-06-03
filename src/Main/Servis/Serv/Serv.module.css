@@ -1,0 +1,28 @@
+.Serv {
+    width: 150px;
+    
+    
+}
+
+.Icon {
+   font-size: 34px;
+   color: white;
+}
+
+.Serv h4 {
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    margin-top: -10px;
+}
+
+.Info {
+    text-transform: lowercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+@media(max-width:599px){
+    .Serv {
+        width: 100%;
+    }
+}

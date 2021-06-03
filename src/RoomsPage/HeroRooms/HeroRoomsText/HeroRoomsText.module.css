@@ -1,0 +1,58 @@
+.HeroRoomsText {
+    width: 35%;
+    background-color: rgba(0,0,0,0.8);
+    margin: auto;
+    height: 230px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.HeroRoomsText h1 {
+  color: white;
+  font-size: 45px;
+  
+
+}
+
+.Underline {
+    width: 22%;
+    height: 3.5px;
+    background-color: teal;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: -25px;
+    
+}
+
+.HeroRoomsText button {
+    padding: 10px 15px;
+    background-color: rgb(120, 1, 120);
+    outline: none;
+    border: none;
+    color: teal;
+    margin-top: 40px;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.HeroRoomsText button:hover {
+    background-color: rgb(92, 2, 92) ;
+    color: thistle;
+}
+
+
+@media (max-width:600px){
+    .HeroRoomsText {
+        width: 80%;
+    }
+}
+
+@media (max-width:1000px){
+    .HeroRoomsText {
+        width: 65%;
+    }
+}

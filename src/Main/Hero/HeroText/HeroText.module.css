@@ -1,0 +1,62 @@
+.HeroText {
+    
+    width: 55%;
+    margin: auto;
+    height: 270px;
+    background-color: rgba(0,0,0,0.6);
+   
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    padding-top: 5px;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.HeroText h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.HeroText h4 {
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.HeroText div {
+    width: 18%;
+    height: 3.5px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: -20px;
+}
+
+.HeroText button {
+    outline: none;
+    border: none;
+    padding: 9px 24px;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.HeroText button:hover {
+    color: wheat;
+}
+
+
+@media(max-width:900px){
+    .HeroText {
+        width: 70%;
+        height: 350px;
+    }
+}
+@media(max-width:550px){
+    .HeroText {
+        width: 80%;
+    }
+}
+
